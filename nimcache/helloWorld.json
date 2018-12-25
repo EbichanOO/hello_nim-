@@ -1,0 +1,10 @@
+{"compile":[
+["/home/takanori/nimProjects/nimcache/helloWorld.c", "gcc -c  -w  -I/usr/lib/nim -o /home/takanori/nimProjects/nimcache/helloWorld.o /home/takanori/nimProjects/nimcache/helloWorld.c"],
+["/home/takanori/nimProjects/nimcache/stdlib_system.c", "gcc -c  -w  -I/usr/lib/nim -o /home/takanori/nimProjects/nimcache/stdlib_system.o /home/takanori/nimProjects/nimcache/stdlib_system.c"]
+],
+"link":[
+"/home/takanori/nimProjects/nimcache/helloWorld.o",
+"/home/takanori/nimProjects/nimcache/stdlib_system.o"
+],
+"linkcmd": "gcc   -o /home/takanori/nimProjects/helloWorld  /home/takanori/nimProjects/nimcache/helloWorld.o /home/takanori/nimProjects/nimcache/stdlib_system.o    -ldl"
+}
